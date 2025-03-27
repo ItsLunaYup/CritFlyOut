@@ -5,8 +5,8 @@
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Version>0.0.1</Version>
-        <Description>Crit Fly Out - Replaces ! and !! damage flytext with customizable text</Description>
+        <Version>1.0.0</Version>
+        <Description>Crit Fly Out - Adds customizable text for crits, direct hits or both</Description>
         <PackageProjectUrl>https://github.com/ItsLunaYup/CritFlyOut</PackageProjectUrl>
         <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
         <IsPackable>false</IsPackable>
