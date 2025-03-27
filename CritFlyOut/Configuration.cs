@@ -9,12 +9,18 @@ public class Configuration : IPluginConfiguration
 {
     public int Version { get; set; } = 0;
 
-    public bool IsConfigWindowMovable { get; set; } = true;
-    public bool SomePropertyToBeSavedAndWithADefault { get; set; } = true;
-
     // the below exist just to make saving less cumbersome
+    [NonSerialized]
+    private IDalamudPluginInterface? PluginInterface;
+
+    public void Initialize(IDalamudPluginInterface pluginInterface)
+    {
+        this.PluginInterface = pluginInterface;
+    }
+
     public void Save()
     {
-        Plugin.PluginInterface.SavePluginConfig(this);
+        this.PluginInterface!.SavePluginConfig(this);
     }
 }
+

@@ -1,0 +1,13 @@
+{
+  "Author": "ItsLunaYup",
+  "Name": "Crit Fly Out",
+  "Punchline": "Replaces ! or !! with minicrit or crit respectively.",
+  "Description": "Replaces ! or !! with minicrit or crit respectively, to enhance clarity for people who prefer text instead of symbols",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "ui",
+    "damage",
+    "text"
+  ], 
+  "RepoUrl": "https://github.com/ItsLunaYup/CritFlyOut"
+}

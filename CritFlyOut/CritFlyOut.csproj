@@ -2,10 +2,11 @@
 <Project Sdk="Dalamud.NET.SDK/11.0.0">
   <PropertyGroup>
     <Version>0.0.0.1</Version>
-    <Description>A sample plugin.</Description>
-    <PackageProjectUrl>https://github.com/goatcorp/SamplePlugin</PackageProjectUrl>
+    <Description>Crit Fly Out</Description>
+    <PackageProjectUrl>https://github.com/ItsLunaYup/CritFlyOut</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <IsPackable>false</IsPackable>
+    <RootNamespace>CritFlyOut</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,5 +14,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Visible>false</Visible>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="DalamudPackager" Version="12.0.0" />
   </ItemGroup>
 </Project>
