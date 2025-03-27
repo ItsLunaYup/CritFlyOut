@@ -1,8 +1,8 @@
 {
   "Author": "ItsLunaYup",
   "Name": "Crit Fly Out",
-  "Punchline": "Replaces ! or !! with minicrit or crit respectively.",
-  "Description": "Adds customizable text on crits, direct hits or both, to enhance clarity for people who prefer text instead of symbols",
+  "Punchline": "Adds customizable text for crits, direct hits or both.",
+  "Description": "Adds customizable text for crits, direct hits or both, to enhance clarity for people who prefer text instead of symbols",
   "ApplicableVersion": "any",
   "Tags": [
     "ui",
